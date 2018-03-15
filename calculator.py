@@ -35,9 +35,9 @@ elif choice == 2:
    print(str(num1) + "-"+ str(num2) + "=" + str(subtract(num1,num2)))
 
 elif choice == 3:
-   print(num1,"*",num2,"=", multiply(num1,num2))
+   print(str(num1) + "*" + str(num2) + "=" + str(multiply(num1,num2)))
 
 elif choice == 4:
-   print(num1,"/",num2,"=", divide(num1,num2))
+   print(str(num1) + "/" + str(num2) + "=" + str(divide(num1,num2)))
 else:
    print("Invalid input")
